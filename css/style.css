@@ -1,0 +1,11 @@
+body{
+    background: white;
+}
+.contenedor{
+    width: 600px;
+    height: 600px;
+    margin: 40px auto;
+    background: pink;
+    border-radius: 30px;
+    padding: 30px;
+}
