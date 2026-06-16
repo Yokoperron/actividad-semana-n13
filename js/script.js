@@ -4,7 +4,7 @@ function agregar(){
     let tipo = document.getElementById("tipo").value;
     let email = document.getElementById("email").value;
     let direccion = document.getElementById("direccion").value;
-    if(nombre==="" || telefono===""||tipo===null || email===""){
+    if(nombre==="" || telefono===""||tipo===null || email==="" || direccion===""){
         alert("completa todos los campos")
     }
     else{
