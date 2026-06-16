@@ -22,7 +22,7 @@ function agregar(){
         contactos.push(contacto);
         
         localStorage.setItem("contactos",JSON.stringify(contactos));
-        alert("agregado")
+        alert("Contacto agregado")
     }
     mostrar();
     
