@@ -3,6 +3,7 @@ function agregar(){
     let telefono = document.getElementById("telefono").value;
     let tipo = document.getElementById("tipo").value;
     let email = document.getElementById("email").value;
+    let direccion = document.getElementById("direccion").value;
     if(nombre==="" || telefono===""||tipo===null || email===""){
         alert("completa todos los campos")
     }
@@ -11,7 +12,8 @@ function agregar(){
         nombre:nombre,
         telefono:telefono,
         tipo:tipo,
-        email:email
+        email:email,
+        direccion:direccion
         };
         let contactos =JSON.parse(localStorage.getItem("contactos"));
         if(contactos ===null){
@@ -37,6 +39,7 @@ function mostrar(){
             <p>fono: ${c.telefono}</p>
             <p>email: ${c.email}</p>
             <p>tipo: ${c.tipo}</p>
+            <p>direccion:${c.direccion}</p>
         </div>
         `;
     })
