@@ -22,8 +22,9 @@ body{
 .contenedor2{
     width: 500px;
     min-height: 150px;
-    background-color: pink;
+    background-color: rgb(255, 255, 255);
     display: flex;
+    border-radius: 10px;
 
 }
 
