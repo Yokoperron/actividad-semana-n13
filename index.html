@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>pract</title>
+</head>
+<body onload="mostrar()">
+    <div class="contenedor1">
+        <h1>Agenda de contactos</h1>
+        <input type="text" id="nombre" placeholder="nombre">
+        <input type="text" id="telefono" placeholder="telefono">
+        <input type="text" id="email" placeholder="email">
+        <select id="tipo">
+            <option>Familia</option>
+            <option>Amigo</option>
+            <option>Trabajo</option>
+        </select>
+        <div class="contenedor2">
+            <div id="resultado"></div>
+        </div>
+        <br>
+        <button onclick="agregar()">agregar</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contenedor1{
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+    border: 3px solid black;
+    background-color: pink;
+    padding: 30px;
+}
+
+.contenedor2{
+    width: 500px;
+    min-height: 150px;
+    background-color: pink;
+    display: flex;
+
+}
+
+#resultado{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.contenedor3{
+    min-width: 100px;
+    min-height: 150px;
+    background-color: rgb(241, 162, 175);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+}
